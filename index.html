@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pedido Listo</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="config.js"></script>
+<script src="productos.js"></script>
+</head>
+
+<body>
+
+<div class="container">
+    <h1 id="titulo"></h1>
+
+    <div id="productos"></div>
+
+    <div class="total" id="total">Total: $0</div>
+
+    <h2>📍 Tus datos</h2>
+
+    <input type="text" id="nombre" placeholder="Tu nombre">
+    <input type="text" id="direccion" placeholder="Dirección">
+    <input type="text" id="pago" placeholder="Forma de pago">
+
+    <button onclick="enviarPedido()">Enviar por WhatsApp</button>
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
